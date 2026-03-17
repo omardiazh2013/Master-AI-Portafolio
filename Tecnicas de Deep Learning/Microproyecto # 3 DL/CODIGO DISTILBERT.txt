@@ -1,0 +1,166 @@
+# ============================================================
+# 🧩 1. Instalaciones
+# ============================================================
+!pip install -q kagglehub datasets transformers accelerate scikit-learn matplotlib seaborn
+
+# ============================================================
+# 🧩 2. Librerías
+# ============================================================
+import kagglehub
+import pandas as pd
+import numpy as np
+import os
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+
+from datasets import Dataset
+from transformers import (
+    AutoTokenizer,
+    AutoModelForSequenceClassification,
+    TrainingArguments,
+    Trainer
+)
+
+import evaluate
+
+# ============================================================
+# 🧩 3. Descargar dataset BBC desde KaggleHub
+# ============================================================
+path = kagglehub.dataset_download("jacopoferretti/bbc-articles-dataset")
+df = pd.read_csv(os.path.join(path, "bbc-articles.csv"))
+print(df.head())
+
+# ============================================================
+# 🧩 4. Preparar etiquetas
+# ============================================================
+labels = df["category"].unique().tolist()
+label2id = {label: i for i, label in enumerate(labels)}
+id2label = {i: label for i, label in enumerate(labels)}
+
+df["label"] = df["category"].map(label2id)
+
+# ============================================================
+# 🧩 5. Train/Test Split
+# ============================================================
+train_df, test_df = train_test_split(
+    df, test_size=0.2, random_state=42, stratify=df["label"]
+)
+
+train_ds = Dataset.from_pandas(train_df)
+test_ds = Dataset.from_pandas(test_df)
+
+# ============================================================
+# 🧩 6. Tokenización
+# ============================================================
+tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+
+def tokenize(batch):
+    return tokenizer(
+        batch["text"], padding="max_length", truncation=True, max_length=256
+    )
+
+train_tok = train_ds.map(tokenize, batched=True)
+test_tok = test_ds.map(tokenize, batched=True)
+
+train_tok = train_tok.remove_columns(["text", "__index_level_0__", "category"])
+test_tok = test_tok.remove_columns(["text", "__index_level_0__", "category"])
+
+train_tok.set_format("torch")
+test_tok.set_format("torch")
+
+# ============================================================
+# 🧩 7. Cargar DistilBERT preentrenado
+# ============================================================
+model = AutoModelForSequenceClassification.from_pretrained(
+    "distilbert-base-uncased",
+    num_labels=len(labels),
+    id2label=id2label,
+    label2id=label2id
+)
+
+# ============================================================
+# 🧩 8. Métricas de evaluación
+# ============================================================
+acc = evaluate.load("accuracy")
+f1 = evaluate.load("f1")
+
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+    preds = np.argmax(logits, axis=1)
+    return {
+        "accuracy": acc.compute(predictions=preds, references=labels)["accuracy"],
+        "f1": f1.compute(predictions=preds, references=labels, average="weighted")["f1"],
+    }
+
+# ============================================================
+# 🧩 9. Parámetros de entrenamiento
+# ============================================================
+training_args = TrainingArguments(
+    output_dir="bbc_distilbert",
+    evaluation_strategy="epoch",
+    save_strategy="epoch",
+    learning_rate=2e-5,
+    num_train_epochs=3,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
+    weight_decay=0.01,
+    load_best_model_at_end=True
+)
+
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_tok,
+    eval_dataset=test_tok,
+    tokenizer=tokenizer,
+    compute_metrics=compute_metrics
+)
+
+# ============================================================
+# 🧩 10. Entrenamiento
+# ============================================================
+trainer.train()
+
+# ============================================================
+# 🧩 11. Extraer historial para gráficos
+# ============================================================
+history = trainer.state.log_history
+
+train_losses = [x["loss"] for x in history if "loss" in x]
+eval_losses = [x["eval_loss"] for x in history if "eval_loss" in x]
+eval_acc = [x["eval_accuracy"] for x in history if "eval_accuracy" in x]
+
+# ============================================================
+# 🧩 12. Gráfico de pérdida
+# ============================================================
+plt.figure(figsize=(8,5))
+plt.plot(train_losses, label="Train Loss")
+plt.plot(eval_losses, label="Eval Loss")
+plt.title("Loss")
+plt.legend()
+plt.show()
+
+# ============================================================
+# 🧩 13. Gráfico de accuracy
+# ============================================================
+plt.figure(figsize=(8,5))
+plt.plot(eval_acc, label="Eval Accuracy")
+plt.title("Accuracy")
+plt.legend()
+plt.show()
+
+# ============================================================
+# 🧩 14. Matriz de Confusión
+# ============================================================
+preds = trainer.predict(test_tok)
+y_true = preds.label_ids
+y_pred = np.argmax(preds.predictions, axis=1)
+
+cm = confusion_matrix(y_true, y_pred)
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
+
+plt.figure(figsize=(8,6))
+disp.plot(xticks_rotation=45, cmap="Blues")
+plt.title("BBC News – DistilBERT – Matriz de Confusión")
+plt.show()

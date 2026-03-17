@@ -1,0 +1,17 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos pesados (opcional, si no quieres subir CSVs gigantes)
+*.csv
+*.zip
+*.rar
