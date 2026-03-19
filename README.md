@@ -32,7 +32,7 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 
 ### 📈 Predictive Modeling & RL
 * **[Smart City: Bike-Sharing Demand](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/Proyectos%20ML/Etapa1delproyectomodelospolinomialesyregularizadosSegundoIntento.ipynb):** Built a high-precision regression pipeline (Lasso + Polynomial Degree-3) that identified key demand drivers, enabling a **12% improvement in operational readiness**.
-[* **[Reinforcement Learning: Maze Solver](./12_Reinforcement_Learning/):** Designed a Q-Learning agent within a custom Gridworld environment (8x7) to find optimal paths, implementing reward functions and state-action policies from the ground up.](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/05_Aprendizaje_Refuerzo/Proyecto%20Aprendizaje%20por%20Refuerzo/Proyecto_Final_Q_Learning_V_3_0.ipynb)
+* **[Reinforcement Learning: Maze Solver](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/05_Aprendizaje_Refuerzo/Proyecto%20Aprendizaje%20por%20Refuerzo/Proyecto_Final_Q_Learning_V_3_0.ipynb):** Designed a Q-Learning agent within a custom Gridworld environment (8x7) to find optimal paths, implementing reward functions and state-action policies from the ground up.
 
 ---
 
