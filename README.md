@@ -20,7 +20,7 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 ## 🌟 Featured Projects
 
 ### 🧠 Computer Vision & Healthcare
-* **[Brain Tumor Classification (MRI)](./[04_Deep_Learning/Microproyecto%20%23%201%20DL/Microproyecto1-CNN-fundacional_model2.ipynb]/):** Engineered a diagnostic system comparing a **CNN "from scratch"** against foundation models using the **MONAI framework**. Focused on distinguishing between Glioma, Meningioma, and Pituitary tumors to reduce clinical diagnostic errors.
+* **[Brain Tumor Classification (MRI)](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/04_Deep_Learning/Microproyecto%20%23%201%20DL/Microproyecto1-CNN-fundacional_model2.ipynb):** Engineered a diagnostic system comparing a **CNN "from scratch"** against foundation models using the **MONAI framework**. Focused on distinguishing between Glioma, Meningioma, and Pituitary tumors to reduce clinical diagnostic errors.
 * **[Segment Anything Model (SAM) Benchmark](./16_Foundation_Models/):** Conducted sensitivity analysis and Zero-Shot benchmarking on Meta’s SAM. Optimized hyperparameters like `points_per_side` and `stability_score` to improve **Average Recall (AR@300)** by 10% on the LVIS dataset.
 
 * **[Vision Transformers (ViT) from Scratch](./15_ViT/):** Implemented the full ViT architecture (Patch Embedding, MHSA, Positional Encoding) to process images as sequences, demonstrating proficiency in the latest attention-based vision paradigms.
