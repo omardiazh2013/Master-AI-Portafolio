@@ -1,8 +1,8 @@
 # 🚀 Omar Darío Díaz Hernández | Senior AI & Data Solutions Leader
 **CTO | Presales Specialist | Master in AI Candidate (Universidad de los Andes)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Omar_Díaz-blue?style=flat&logo=linkedin)]([https://www.linkedin.com/in/omar-dar%C3%ADo-d%C3%ADaz-hern%C3%A1ndez-92358454/](https://www.linkedin.com/in/omar-dar%C3%ADo-d%C3%ADaz-hern%C3%A1ndez-92358454/)) 
-[![Email](https://img.shields.io/badge/Email-omardiaz__h@hotmail.com-red?style=flat&logo=gmail)](mailto:omardiaz_h@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-dar%C3%ADo-d%C3%ADaz-hern%C3%A1ndez-92358454/)
+[![Email](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:omardiaz_h@hotmail.com)
 
 IT Strategy Leader with over **20 years of experience** designing and monetizing transformative AI/ML and GenAI architectures across LATAM. My focus bridges the gap between high-level C-Suite consulting and deep technical implementation in supervised, unsupervised, and foundation models.
 
@@ -26,13 +26,13 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 * **[Vision Transformers (ViT) from Scratch](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/07_Visi%C3%B3n_Artificial%20-%20Interpretaci%C3%B3n%20visual/Laboratorio_VisionTransformers.ipynb):** Implemented the full ViT architecture (Patch Embedding, MHSA, Positional Encoding) to process images as sequences, demonstrating proficiency in the latest attention-based vision paradigms.
 
 ### 🌿 NLP & Language Modeling
-* **[BBC News Multi-Label Classification](./11_Transformers/):** Leveraged **DistilBERT** to categorize massive news volumes. Achieved high-performance results while optimizing for computational efficiency and inference speed.
-* **[Sentiment Analysis with RNNs](./10_RNN_LSTM/):** Developed a comparative study between **LSTM and GRU** architectures for sentiment polarity detection, achieving **86.3% accuracy** and identifying optimal use cases for low-latency environments.
+* **[BBC News Multi-Label Classification](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/04_Deep_Learning/Microproyecto%20%23%203%20DL/DisTilBert_V_2_1.ipynb):** Leveraged **DistilBERT** to categorize massive news volumes. Achieved high-performance results while optimizing for computational efficiency and inference speed.
+* **[Sentiment Analysis with RNNs](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/04_Deep_Learning/Microproyecto%20%232%20DL/GRU_optimizado_V_1_0.ipynb):** Developed a comparative study between **LSTM and GRU** architectures for sentiment polarity detection, achieving **86.3% accuracy** and identifying optimal use cases for low-latency environments.
 
 
 ### 📈 Predictive Modeling & RL
-* **[Smart City: Bike-Sharing Demand](./02_ML_Supervisado/):** Built a high-precision regression pipeline (Lasso + Polynomial Degree-3) that identified key demand drivers, enabling a **12% improvement in operational readiness**.
-* **[Reinforcement Learning: Maze Solver](./12_Reinforcement_Learning/):** Designed a Q-Learning agent within a custom Gridworld environment (8x7) to find optimal paths, implementing reward functions and state-action policies from the ground up.
+* **[Smart City: Bike-Sharing Demand](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/Proyectos%20ML/Etapa1delproyectomodelospolinomialesyregularizadosSegundoIntento.ipynb):** Built a high-precision regression pipeline (Lasso + Polynomial Degree-3) that identified key demand drivers, enabling a **12% improvement in operational readiness**.
+* **[Reinforcement Learning: Maze Solver](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/05_Aprendizaje_Refuerzo/Proyecto%20Aprendizaje%20por%20Refuerzo/Proyecto_Final_Q_Learning_V_3_0.ipynb):** Designed a Q-Learning agent within a custom Gridworld environment (8x7) to find optimal paths, implementing reward functions and state-action policies from the ground up.
 
 ---
 
