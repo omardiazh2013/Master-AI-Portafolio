@@ -26,7 +26,7 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 * **[Vision Transformers (ViT) from Scratch](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/07_Visi%C3%B3n_Artificial%20-%20Interpretaci%C3%B3n%20visual/Laboratorio_VisionTransformers.ipynb):** Implemented the full ViT architecture (Patch Embedding, MHSA, Positional Encoding) to process images as sequences, demonstrating proficiency in the latest attention-based vision paradigms.
 
 ### 🌿 NLP & Language Modeling
-* **[BBC News Multi-Label Classification](./11_Transformers/):** Leveraged **DistilBERT** to categorize massive news volumes. Achieved high-performance results while optimizing for computational efficiency and inference speed.
+* **[BBC News Multi-Label Classification](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/04_Deep_Learning/Microproyecto%20%23%203%20DL/DisTilBert_V_2_1.ipynb):** Leveraged **DistilBERT** to categorize massive news volumes. Achieved high-performance results while optimizing for computational efficiency and inference speed.
 * **[Sentiment Analysis with RNNs](./10_RNN_LSTM/):** Developed a comparative study between **LSTM and GRU** architectures for sentiment polarity detection, achieving **86.3% accuracy** and identifying optimal use cases for low-latency environments.
 
 
