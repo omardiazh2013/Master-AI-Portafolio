@@ -1,7 +1,7 @@
 # 🚀 Omar Darío Díaz Hernández | Senior AI & Data Solutions Leader
 **CTO | Presales Specialist | Master in AI Candidate (Universidad de los Andes)**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Omar_Díaz-blue?style=flat&logo=linkedin)]([https://www.linkedin.com/in/omar-dar%C3%ADo-d%C3%ADaz-hern%C3%A1ndez-92358454/](https://www.linkedin.com/in/omar-dar%C3%ADo-d%C3%ADaz-hern%C3%A1ndez-92358454/)) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Omar_Díaz-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/omar-dar%C3%ADo-d%C3%ADaz-hern%C3%A1ndez-92358454/) 
 [![Email](https://img.shields.io/badge/Email-omardiaz__h@hotmail.com-red?style=flat&logo=gmail)](mailto:omardiaz_h@hotmail.com)
 
 IT Strategy Leader with over **20 years of experience** designing and monetizing transformative AI/ML and GenAI architectures across LATAM. My focus bridges the gap between high-level C-Suite consulting and deep technical implementation in supervised, unsupervised, and foundation models.
