@@ -17,6 +17,31 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 
 ---
 
+---
+
+## 🏛️ Enterprise AI & CRM Strategy (Special Case Study)
+
+### 💨 [Project Breezy: AI-Powered HubSpot Transformation](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
+**Role:** Lead Solutions Architect | **Tech:** HubSpot Ops Hub Enterprise, Gemini AI, RAG, Python.
+
+* **Strategic Vision:** Transformed siloed telemetry data into a unified "Smart CRM" to reduce Customer Acquisition Cost (CAC) and Cost Per Ticket (CPT).
+  <p align="center">
+  <img src="./images/as_is_to_be.png" alt="Consultative As IS & To be approch" width="800">
+</p>
+* **AI Implementation:** * Developed a **RAG (Retrieval-Augmented Generation)** assistant for technical support, drastically reducing MTTR (Mean Time to Resolution).
+
+    * Implemented **Predictive Lead Scoring** using **Gemini AI** to prioritize "Hot Leads" based on real-time device telemetry.
+* **Architecture:** Designed a scalable ERD with **Custom Objects** to manage the full device lifecycle, justifying the move to HubSpot Enterprise tiers.
+
+<p align="center">
+  <img src="./images/breezy_architecture.png" alt="Breezy AI Architecture" width="800">
+</p>
+
+[👉 View HubSpot Technical Repository](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
+
+---
+
+
 ## 🌟 Featured Projects
 
 ### 🧠 Computer Vision & Healthcare
