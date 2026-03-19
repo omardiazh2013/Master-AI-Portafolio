@@ -27,12 +27,12 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 
 ### 🌿 NLP & Language Modeling
 * **[BBC News Multi-Label Classification](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/04_Deep_Learning/Microproyecto%20%23%203%20DL/DisTilBert_V_2_1.ipynb):** Leveraged **DistilBERT** to categorize massive news volumes. Achieved high-performance results while optimizing for computational efficiency and inference speed.
-* **[Sentiment Analysis with RNNs](./10_RNN_LSTM/):** Developed a comparative study between **LSTM and GRU** architectures for sentiment polarity detection, achieving **86.3% accuracy** and identifying optimal use cases for low-latency environments.
+* **[Sentiment Analysis with RNNs](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/04_Deep_Learning/Microproyecto%20%232%20DL/GRU_optimizado_V_1_0.ipynb):** Developed a comparative study between **LSTM and GRU** architectures for sentiment polarity detection, achieving **86.3% accuracy** and identifying optimal use cases for low-latency environments.
 
 
 ### 📈 Predictive Modeling & RL
-* **[Smart City: Bike-Sharing Demand](./02_ML_Supervisado/):** Built a high-precision regression pipeline (Lasso + Polynomial Degree-3) that identified key demand drivers, enabling a **12% improvement in operational readiness**.
-* **[Reinforcement Learning: Maze Solver](./12_Reinforcement_Learning/):** Designed a Q-Learning agent within a custom Gridworld environment (8x7) to find optimal paths, implementing reward functions and state-action policies from the ground up.
+* **[Smart City: Bike-Sharing Demand](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/Proyectos%20ML/Etapa1delproyectomodelospolinomialesyregularizadosSegundoIntento.ipynb):** Built a high-precision regression pipeline (Lasso + Polynomial Degree-3) that identified key demand drivers, enabling a **12% improvement in operational readiness**.
+[* **[Reinforcement Learning: Maze Solver](./12_Reinforcement_Learning/):** Designed a Q-Learning agent within a custom Gridworld environment (8x7) to find optimal paths, implementing reward functions and state-action policies from the ground up.](https://github.com/omardiazh2013/Master-AI-Portafolio/blob/main/05_Aprendizaje_Refuerzo/Proyecto%20Aprendizaje%20por%20Refuerzo/Proyecto_Final_Q_Learning_V_3_0.ipynb)
 
 ---
 
