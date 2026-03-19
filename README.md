@@ -17,30 +17,41 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 
 ---
 
----
+## 🏛️ Strategic AI & CRM Transformation: Case "Project Breezy"
 
-## 🏛️ Enterprise AI & CRM Strategy (Special Case Study)
+### 💨 [Enterprise Data Monetization & Customer Lifecycle PoC](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
+**Role:** External Strategic Consultant | **Tech Stack:** Gemini AI (Vertex AI), RAG Architecture, Python, Enterprise CRM Integration.
 
-### 💨 [Project Breezy: AI-Powered HubSpot Transformation](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
-**Role:** Lead Solutions Architect | **Tech:** HubSpot Ops Hub Enterprise, Gemini AI, RAG, Python.
+> **Executive Summary:** Led a consultative digital transformation for a major thermostat manufacturer to monetize siloed telemetry data. I bridged the gap between millions of IoT devices and commercial operations, shifting the business model from "Hardware-Sales" to **"Energy Efficiency as a Service."**
 
-* **Strategic Vision:** Transformed siloed telemetry data into a unified "Smart CRM" to reduce Customer Acquisition Cost (CAC) and Cost Per Ticket (CPT).
-  <p align="center">
-  <img src="./images/as_is_to_be.png" alt="Consultative As IS & To be approch" width="800">
-</p>
-* **AI Implementation:** * Developed a **RAG (Retrieval-Augmented Generation)** assistant for technical support, drastically reducing MTTR (Mean Time to Resolution).
-
-    * Implemented **Predictive Lead Scoring** using **Gemini AI** to prioritize "Hot Leads" based on real-time device telemetry.
-* **Architecture:** Designed a scalable ERD with **Custom Objects** to manage the full device lifecycle, justifying the move to HubSpot Enterprise tiers.
+#### 🔍 The Consultative Approach (Methodology)
+* **The Challenge (Situation/Task):** The client struggled with high Customer Acquisition Costs (CAC) and siloed data. Millions of connected devices were generating telemetry that wasn't being used to drive sales or improve support. 
+* **The Strategy (Action):** Conducted a **Discovery Workshop (As-Is / To-Be)** to map pain points. Designed a **Strategic Canvas** to unify IoT telemetry with CRM data, creating a "Single Source of Truth."
 
 <p align="center">
-  <img src="./images/breezy_architecture.png" alt="Breezy AI Architecture" width="800">
+  <img src="./images/as_is_to_be.png" alt="Consultative As IS & To be approach" width="800">
 </p>
 
-[👉 View HubSpot Technical Repository](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
+#### 🛠️ AI-Driven Solutions & Implementation
+* **Predictive Lead Scoring:** Implemented **Gemini-powered models** to calculate "Propensity to Buy" scores based on real-time device usage, allowing sales teams to prioritize high-value leads.
+<p align="center">
+  <img src="./images/Predictive_Lead_Scoring.png" alt="Predictive Lead Scoring Logic" width="800">
+</p>
 
----
+* **Intelligent Support Automation:** Developed a **RAG (Retrieval-Augmented Generation)** virtual assistant to automate technical support, reducing MTTR (Mean Time to Resolution) and shifting the cost center to a value driver.
+<p align="center">
+  <img src="./images/RAG_technical_virutal_assitance.png" alt="RAG Architecture for Technical Support" width="800">
+</p>
 
+#### 📈 Business Impact (Results)
+* **ROI Driven:** Demonstrated a clear path to reduce the sales cycle and improve CSAT.
+* **Strategic Alignment:** Transformed raw data into a new revenue stream, proving that an AI & Data stack is the ultimate engine for business maturity.
+
+<p align="center">
+  <img src="./images/transformation_road_map.png" alt="Strategic Transformation Roadmap" width="800">
+</p>
+
+[👉 Explore the Technical PoC & Documentation](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
 
 ## 🌟 Featured Projects
 
