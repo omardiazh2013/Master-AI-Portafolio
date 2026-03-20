@@ -17,7 +17,7 @@ IT Strategy Leader with over **20 years of experience** designing and monetizing
 
 ---
 
-## 🏛️ Strategic AI & CRM Transformation: Case "Project Breezy"
+## 🏛️ Strategic AI & CRM Transformation: Case "Digital Transformation & Data Monetization for a Global Thermostat Manufacturer"
 
 ### 💨 [Enterprise Data Monetization & Customer Lifecycle PoC](https://github.com/omardiazh2013/HubSpotTechnicalAssessment)
 **Role:** External Strategic Consultant | **Tech Stack:** Gemini AI (Vertex AI), RAG Architecture, Python, Enterprise CRM Integration.
